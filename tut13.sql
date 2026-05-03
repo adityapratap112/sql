@@ -19,8 +19,6 @@ BEGIN;
 DELETE FROM employees_del
 WHERE department = 'Sales';
 
--- Check result
 SELECT * FROM employees_del;
 
--- If you want to undo:
 ROLLBACK;
