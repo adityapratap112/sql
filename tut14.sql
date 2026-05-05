@@ -10,9 +10,7 @@ CREATE TABLE IF NOT EXISTS sample.tab1
 
 INSERT INTO sample.tab1 (EmpId, Name, Department, Salary)
 VALUES
-    (1, 'John Smith', 'HR', 45000),
-    (2, 'Emma Brown', 'IT', 60000),
-    (3, 'David Lee', 'Sales', 52000);
+    (4, 'Charlie', 'Marketing', 88000),
+    (5, 'Diana', 'Sales', 75000)
 
--- Display the data
 SELECT * FROM sample.tab1;
